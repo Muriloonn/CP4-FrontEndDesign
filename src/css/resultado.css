@@ -1,0 +1,12 @@
+.tabela {
+    margin-top: 15px;
+}
+
+.tabelaResultado {
+    margin-top: 15px;
+    gap: 6px 20px;
+    text-align: center;
+    justify-content: space-between;
+    border-collapse: collapse;
+    width: 100%;
+}

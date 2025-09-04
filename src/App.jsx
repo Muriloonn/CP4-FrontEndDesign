@@ -35,7 +35,7 @@ function App() {
             <input
               type="number"
               id="altura"
-              placeholder="Digite sua altura"
+              placeholder="Digite sua altura (em metros)"
               value={altura}
               onChange={(e) => setAltura(parseFloat (e.target.value))}
             />
@@ -45,12 +45,12 @@ function App() {
             <input
               type="number"
               id="peso"
-              placeholder="Digite seu peso"
+              placeholder="Digite seu peso (em kg)"
               value={peso}
               onChange={(e) => setPeso(parseFloat (e.target.value))}
             />
           </div>
-          <button onClick={calcularIMC}>Calcular</button>
+          <button id="botao" onClick={calcularIMC}>Calcular</button>
         </form>
       </div>
       {mostrarResultado &&(

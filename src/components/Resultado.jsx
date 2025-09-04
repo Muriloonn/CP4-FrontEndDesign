@@ -13,11 +13,11 @@ function Resultado({resultado}){
 
             </div>
 
-            <table className='tabela'>
+            <table className='tabelaResultado'>
                 <thead className='tabelaHeader'>
                     <tr>
-                        <th>Classificação</th>
-                        <th>IMC</th>
+                        <th id="classificacao">Classificação</th>
+                        <th id="imc">IMC</th>
                     </tr>
                 </thead>
                 <tbody className="tabelaBody">
