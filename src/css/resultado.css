@@ -4,9 +4,30 @@
 
 .tabelaResultado {
     margin-top: 15px;
-    gap: 6px 20px;
-    text-align: center;
-    justify-content: space-between;
-    border-collapse: collapse;
     width: 100%;
+}
+
+.baixoPeso {
+    color: #0000ff;
+    font-weight: bold;
+}
+
+.pesoNormal {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.sobrePeso {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+.obesidade1 {
+    color: #ff4500;
+    font-weight: bold;
+}
+
+.obesidadeMorbida {
+    color: #ff0000;
+    font-weight: bold;
 }
